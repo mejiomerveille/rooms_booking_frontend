@@ -1,4 +1,7 @@
-const API_BASE_URL = 'http://localhost:3000/api';
+"use server";
+
+const API_BASE_URL = process.env.BACKEND_URL;
+
 
 const getAuthToken = () => {
   return localStorage.getItem('access_token');
