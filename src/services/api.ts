@@ -1,6 +1,4 @@
-"use server";
-
-const API_BASE_URL = process.env.BACKEND_URL;
+const API_BASE_URL = "https://rooms-booking-backend-1.onrender.com/api";
 
 
 const getAuthToken = () => {
